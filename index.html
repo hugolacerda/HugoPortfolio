@@ -1,0 +1,141 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hugo's Portfolio</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+
+  </head>
+  <body>
+  
+
+  <header class="row">
+    <div id="logo" class="large-3 columns">
+      <h1><img src="http://placehold.it/400x100&text=Logo" /></h1>
+    </div>
+    
+    <nav class="large-9 columns">
+      <ul class="inline-list right button-group">
+      <li><a href="index.html" class="button">home</a></li>
+      <li><a href="gallery.html" class="button">projects</a></li>
+      <li><a href="blog.html" class="button">blog</a></li>
+      <li><a href="#"  data-reveal-id="myModal" class="button">contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  
+<!-- End Header and Nav -->
+
+<!-- First Band (Slider) -->
+<section> <!-- content wrap --> 
+
+  <div clas="myModal" class="reveal-modal" data-reveal>
+    <h2 class="text-center">Contact Us</h2>
+    <hr />
+    <form>
+      <input type="text" id="firstName" placeholder="First Name">
+      <input type="text" id="email" placeholder="Email Adress">
+      <textarea placeholder="message"></textarea>
+      <input id="send" type="submit" value="SEND">
+    </form>
+  </div>
+
+
+    <article id="myOrbit">
+      <ul id="mySlider" class="example-orbit" data-orbit  data-options="animation:slide;
+      navigation_arrows:false;
+      timer_show_progress_bar: false;
+      variable_height: true;">
+      <li>
+          <img src=
+        "http://placehold.it/1000x300&amp;text=[%20img%201%20]">
+        <div class="orbit-caption">
+          <h3>Men's Warehouse Re-design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet gravida sapien, vitae pretium quam. Cras mollis purus dui, ut blandit mauris facilisis ut.</p>
+        </div>
+      </li>
+      <li>
+          <img src=
+        "http://placehold.it/1000x300&amp;text=[%20img%202%20]">
+        <div class="orbit-caption">
+          Caption One.
+        </div>
+      </li>
+      <li>
+          <img src=
+        "http://placehold.it/1000x300&amp;text=[%20img%203%20]">
+        <div class="orbit-caption">
+          Caption One.
+        </div>
+      </li>
+      </ul>
+
+      
+
+    </article>
+
+  
+  <!-- Three-up Content Blocks -->
+
+  <article id="features" class="row">
+    <div class="large-4 columns">
+      <h4 id="design">Design</h4>
+      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+    </div>
+    
+    <div class="large-4 columns">
+      <h4 id="develope">Develope</h4>
+      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+    </div>
+    
+    <div class="large-4 columns">
+      <h4 id="plan">Planning</h4>
+      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+    </div>
+  
+  </article>
+
+
+ <article id="blog" class="row">
+    <div class="large-8 columns">
+      <img src="http://placehold.it/640x235&text=[img]" />
+      <h4 id="latest_project">Responsive Design Using Sass</h4>
+      <p id="date">apr, 12 2014</p>
+      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet gravida sapien, vitae pretium quam. Cras mollis purus dui, ut blandit mauris facilisis ut. Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+    </div>
+    
+    <div class="large-4 columns">
+      <img src="http://placehold.it/315x200&text=[img]" />
+      <h4 id="name">Hugo Lacerda</h4>
+      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+      <blockquote>citudin, lorem quis bibendum auctor, nisi elit consequat ips</blockquote>
+      <p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit dapibusp</p>
+    </div>
+  
+  </article>
+
+</section> <!-- content wrap -->
+  <!-- Footer -->
+  
+  <footer>
+    <div class="large-12 columns">
+      <h4>Say Hello!</h4>
+     
+      <span>Copyright &copy; Hugo Lacerda. All Rights Reserved</span>
+      </br>
+      <a href="#"><img src="img/face_icon.png" alt="Facebook Link" /></a>
+      <a href="#"><img src="img/git_icon.png" alt="Github Link" /></a>
+      <a href="#"><img src="img/mail_icon.png" alt="Mail Us Link" /></a>
+    </div> 
+  </footer>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
