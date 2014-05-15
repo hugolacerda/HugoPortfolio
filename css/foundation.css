@@ -39,7 +39,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
+  background: #FAFAFA;
   color: #555555;
   padding: 0;
   margin: 0;
@@ -52,9 +52,9 @@ body {
 
 /*custom css*/
 
-#latest_project{
-  font-family: "Myriad Pro", "Helvetica", Helvetica, Arial, sans-serif !important;
-  font-weight: normal;
+#latest_project, #gallery_wrap h1, #blog_wrap h1{
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
 }
 
 #name{
@@ -142,6 +142,7 @@ body {
   width: 100%;
 }
 
+
 footer .columns{
   margin-top: 70px;
  /* width: 100% !important;*/
@@ -150,6 +151,9 @@ footer .columns{
 }
 
 footer h4{
+  font-family: 'Alegreya', serif;
+  font-size: 36px;
+  font-weight: 700;
   margin-top: 85px !important;
   border-bottom: 1px solid #474747;
    padding-bottom: 5px;
@@ -160,9 +164,14 @@ footer img{
   margin-bottom: 85px !important;
 }
 
-footer span{
+footer p{
+  margin-top: 15px;
   font-size: 14px;
   color: #535353;
+  margin-bottom: 10px !important;
+}
+
+footer aside{
 }
 
 .myModal{
