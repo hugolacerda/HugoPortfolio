@@ -1,0 +1,8 @@
+body,textarea,td,button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+body {
+	overflow-x: hidden;
+}
